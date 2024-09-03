@@ -19,7 +19,7 @@ enum Tab: String, CaseIterable {
         case .home:
             return "house.fill"
         case .details:
-            return "line.3.horizontal.button.angledtop.vertical.right.fill"
+            return "teletype"
         case .settings:
             return "gearshape.fill"
 

@@ -11,7 +11,7 @@ import SwiftUI
 struct Smart_MonitoringApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnboardingScreenView()
         }
     }
 }

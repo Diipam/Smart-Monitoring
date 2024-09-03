@@ -14,12 +14,13 @@ struct TabbarModifier: ViewModifier {
             .background(.ultraThinMaterial.opacity(0.8))
             .background(AppColor.tabbarBackground)
             .mask(RoundedRectangle(cornerRadius: 30, style: .continuous))
-            .shadow(color: AppColor.accentBlue, radius: 2)
+            .shadow(color: AppColor.accentBlue.opacity(0.3), radius: 5, x: 2, y: 10)
             .overlay(content: {
                 RoundedRectangle(cornerRadius: 30, style: .continuous)
                     .stroke(AppColor.accentBlue)
             })
             .padding(.horizontal, 24)
+//            .padding(.bottom, 20)
 
     }
 

@@ -20,7 +20,14 @@
 		F30B35E02C808B8500280023 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30B35DB2C808B8500280023 /* AppColor.swift */; };
 		F30B35E12C808B8500280023 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30B35DC2C808B8500280023 /* AppFont.swift */; };
 		F30B35E22C808B8500280023 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30B35DD2C808B8500280023 /* UserDefaults.swift */; };
-		F30B35E52C80980800280023 /* rive_smartai.riv in Resources */ = {isa = PBXBuildFile; fileRef = F30B35E42C80980800280023 /* rive_smartai.riv */; };
+		F33038872C857F950043635B /* OnboaringScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33038862C857F950043635B /* OnboaringScreenView.swift */; };
+		F33038892C85840E0043635B /* CustomRoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33038882C85840E0043635B /* CustomRoundedCorner.swift */; };
+		F3916CF82C86DF8000A44F79 /* TestCustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3916CF72C86DF8000A44F79 /* TestCustomShape.swift */; };
+		F3916CFA2C871FCD00A44F79 /* riveassets.riv in Resources */ = {isa = PBXBuildFile; fileRef = F3916CF92C871FCD00A44F79 /* riveassets.riv */; };
+		F3916CFC2C87238700A44F79 /* testnewimage.riv in Resources */ = {isa = PBXBuildFile; fileRef = F3916CFB2C87238700A44F79 /* testnewimage.riv */; };
+		F3916CFE2C87255800A44F79 /* dimensionanimation.riv in Resources */ = {isa = PBXBuildFile; fileRef = F3916CFD2C87255800A44F79 /* dimensionanimation.riv */; };
+		F3916D002C8729BA00A44F79 /* dimensionanimation2.riv in Resources */ = {isa = PBXBuildFile; fileRef = F3916CFF2C8729BA00A44F79 /* dimensionanimation2.riv */; };
+		F3916D022C872A5F00A44F79 /* dimensionanimation3.riv in Resources */ = {isa = PBXBuildFile; fileRef = F3916D012C872A5F00A44F79 /* dimensionanimation3.riv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +44,14 @@
 		F30B35DB2C808B8500280023 /* AppColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		F30B35DC2C808B8500280023 /* AppFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
 		F30B35DD2C808B8500280023 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
-		F30B35E42C80980800280023 /* rive_smartai.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = rive_smartai.riv; sourceTree = "<group>"; };
+		F33038862C857F950043635B /* OnboaringScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboaringScreenView.swift; sourceTree = "<group>"; };
+		F33038882C85840E0043635B /* CustomRoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoundedCorner.swift; sourceTree = "<group>"; };
+		F3916CF72C86DF8000A44F79 /* TestCustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomShape.swift; sourceTree = "<group>"; };
+		F3916CF92C871FCD00A44F79 /* riveassets.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = riveassets.riv; sourceTree = "<group>"; };
+		F3916CFB2C87238700A44F79 /* testnewimage.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = testnewimage.riv; sourceTree = "<group>"; };
+		F3916CFD2C87255800A44F79 /* dimensionanimation.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = dimensionanimation.riv; sourceTree = "<group>"; };
+		F3916CFF2C8729BA00A44F79 /* dimensionanimation2.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = dimensionanimation2.riv; sourceTree = "<group>"; };
+		F3916D012C872A5F00A44F79 /* dimensionanimation3.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = dimensionanimation3.riv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				F30B35CD2C808B7200280023 /* HomeView.swift */,
+				F3916CF72C86DF8000A44F79 /* TestCustomShape.swift */,
 			);
 			path = HomePage;
 			sourceTree = "<group>";
@@ -110,6 +125,7 @@
 		F30B35D22C808B7200280023 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				F33038852C857D430043635B /* OnboardingScreen */,
 				F30B35CE2C808B7200280023 /* HomePage */,
 				F30B35D12C808B7200280023 /* TabBar */,
 			);
@@ -119,7 +135,11 @@
 		F30B35D72C808B7B00280023 /* RiveAssets */ = {
 			isa = PBXGroup;
 			children = (
-				F30B35E42C80980800280023 /* rive_smartai.riv */,
+				F3916D012C872A5F00A44F79 /* dimensionanimation3.riv */,
+				F3916CFF2C8729BA00A44F79 /* dimensionanimation2.riv */,
+				F3916CFD2C87255800A44F79 /* dimensionanimation.riv */,
+				F3916CFB2C87238700A44F79 /* testnewimage.riv */,
+				F3916CF92C871FCD00A44F79 /* riveassets.riv */,
 				F30B35D62C808B7B00280023 /* shapes.riv */,
 			);
 			path = RiveAssets;
@@ -129,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				F30B35D92C808B8500280023 /* TabModifier.swift */,
+				F33038882C85840E0043635B /* CustomRoundedCorner.swift */,
 			);
 			path = ViewModifiers;
 			sourceTree = "<group>";
@@ -150,6 +171,14 @@
 				F30B35BC2C808AEB00280023 /* Smart_MonitoringApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		F33038852C857D430043635B /* OnboardingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F33038862C857F950043635B /* OnboaringScreenView.swift */,
+			);
+			path = OnboardingScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,9 +246,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F30B35C42C808AEC00280023 /* Preview Assets.xcassets in Resources */,
-				F30B35E52C80980800280023 /* rive_smartai.riv in Resources */,
+				F3916CFA2C871FCD00A44F79 /* riveassets.riv in Resources */,
 				F30B35D82C808B7B00280023 /* shapes.riv in Resources */,
+				F3916D002C8729BA00A44F79 /* dimensionanimation2.riv in Resources */,
+				F3916CFC2C87238700A44F79 /* testnewimage.riv in Resources */,
 				F30B35C12C808AEC00280023 /* Assets.xcassets in Resources */,
+				F3916CFE2C87255800A44F79 /* dimensionanimation.riv in Resources */,
+				F3916D022C872A5F00A44F79 /* dimensionanimation3.riv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,8 +265,11 @@
 			files = (
 				F30B35E12C808B8500280023 /* AppFont.swift in Sources */,
 				F30B35D32C808B7200280023 /* HomeView.swift in Sources */,
+				F33038872C857F950043635B /* OnboaringScreenView.swift in Sources */,
 				F30B35BF2C808AEB00280023 /* ContentView.swift in Sources */,
+				F3916CF82C86DF8000A44F79 /* TestCustomShape.swift in Sources */,
 				F30B35D52C808B7200280023 /* Tab.swift in Sources */,
+				F33038892C85840E0043635B /* CustomRoundedCorner.swift in Sources */,
 				F30B35E02C808B8500280023 /* AppColor.swift in Sources */,
 				F30B35E22C808B8500280023 /* UserDefaults.swift in Sources */,
 				F30B35BD2C808AEB00280023 /* Smart_MonitoringApp.swift in Sources */,

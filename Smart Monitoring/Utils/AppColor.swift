@@ -12,11 +12,12 @@ struct AppColor {
     static let tabbarBackground = Color(hex: "#EDEDED")
     static let background = Color(hex: "#FCFEFF")
     static let green = Color(hex: "#079115")
-    static let amberYellow = Color("buttonColor")
+    static let amberYellow = Color(hex: "#ffa800")
+    static let homepageText = Color(hex: "#DDDFE0")
     static let yellow = Color(hex: "#FFC300")
-    static let gray2 = Color(hex: "#717171")
+    static let textColor = Color(hex: "#4A4B4C")
     static let gray4 = Color(hex: "#343434")
-    static let black = Color(hex: "#000000")
+    static let onboardingScreen = Color(hex: "#F5F5F5")
 
 }
 

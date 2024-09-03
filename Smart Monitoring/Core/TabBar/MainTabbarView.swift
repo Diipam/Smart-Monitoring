@@ -19,34 +19,24 @@ struct MainTabbarView: View {
                 TabView(selection: $activeTab) {
                     Text("Notification")
                         .tag(Tab.notification)
-    //                    Hiding Native tab bar
-                        .toolbar(.hidden, for: .tabBar)
 
                     Text("Graph")
                         .tag(Tab.graph)
-                        // Hiding Native tab bar
-                        .toolbar(.hidden, for: .tabBar)
 
                     HomeView()
                         .tag(Tab.home)
-                    // Hiding Native tab bar
-                    .toolbar(.hidden, for: .tabBar)
 
                     Text("Details")
                         .tag(Tab.details)
-                    // Hiding Native tab bar
-                    .toolbar(.hidden, for: .tabBar)
 
                     Text("Settings")
                         .tag(Tab.settings)
-                    // Hiding Native tab bar
-                    .toolbar(.hidden, for: .tabBar)
                 }
                 customTabbar(tint: AppColor.accentBlue, inactiveTint: .blue)
                     .modifier(TabbarModifier())
-                    
             }
         }
+        .navigationBarBackButtonHidden(true)
     }
 
 //    Custom Tabbar
@@ -87,20 +77,9 @@ struct TabItem: View {
                 .overlay(content: {
                     if activeTab == tab {
                         Circle()
-                            .stroke(AppColor.accentBlue.opacity(0.8), lineWidth: 4)
+                            .stroke(AppColor.accentBlue, lineWidth: 4)
                     }
                 })
-//                .background {
-//                    if activeTab == tab {
-//                        Circle()
-//                            .fill(tint.gradient)
-//                            .overlay {
-//                                Circle()
-//                                    .stroke(tint, lineWidth: 2)
-//                            }
-//                            .shadow(color: tint.opacity(0.3), radius: 5, x: 0, y: 5)
-//                    }
-//                }
         }
         .frame(maxWidth: .infinity)
         .contentShape(Circle())
