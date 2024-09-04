@@ -1,17 +1,17 @@
 import SwiftUI
 
 struct OnboardingScreenView: View {
-    @State private var currentTab = 0 // Keeps track of the current tab
+    @State private var currentTab = 1 // Keeps track of the current tab
 
     var body: some View {
         NavigationStack {
             ZStack {
                 AppColor.onboardingScreen
                     .ignoresSafeArea()
-                
+
                 TabView(selection: $currentTab) {
                     // First onboarding screen
-                    OnboardingContentView(
+                    FirstOnboardingView(
                         title: "ようこそ",
                         subtitle: "スマートAIアプリ",
                         description: "太陽光発電の利用は持続可能な未来への重要な一歩です。無限のクリーンエネルギーであり、環境負荷を大幅に軽減します。技術の進歩で効率も向上。地球温暖化や資源枯渇に対処するため、太陽光発電は不可欠です。",
@@ -21,10 +21,18 @@ struct OnboardingScreenView: View {
                         }
                     )
                     .tag(0)
-                    
+
                     // Second onboarding screen
-                    HeaderView()
-                        .tag(1)
+                    SecondOnboardingView(
+                        title: "ログイン,",
+                        subtitle: "アプリにログインが成功すると、ご家庭の電力情報をご確認頂けるようになります",
+                        description: "ユーザー認証を開始します。お手元にお客様のユーザーIDとパスワードが記載された書類をご用意ください。",
+                        buttonTitle: "始める",
+                        buttonAction: {
+                            currentTab = 0
+                        }
+                    )
+                    .tag(1)
                 }
                 .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never)) // Hides the default page indicator
             }
@@ -32,7 +40,7 @@ struct OnboardingScreenView: View {
     }
 }
 
-struct OnboardingContentView: View {
+struct FirstOnboardingView: View {
     var title: String
     var subtitle: String
     var description: String
@@ -103,10 +111,15 @@ struct OnboardingContentView: View {
     }
 }
 
-struct HeaderView: View {
+struct SecondOnboardingView: View {
+    var title: String
+    var subtitle: String
+    var description: String
+    var buttonTitle: String
+    var buttonAction: () -> Void
     var body: some View {
         VStack(alignment: .center, spacing: 10) {
-            Text("ログイン")
+            Text(title)
                 .foregroundStyle(AppColor.accentBlue)
                 .font(.title)
                 .fontWeight(.bold)
@@ -117,14 +130,14 @@ struct HeaderView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
 
-            Text("アプリにログインが成功すると、ご家庭の電力情報をご確認頂けるようになります")
+            Text(subtitle)
                 .font(.footnote)
                 .foregroundStyle(AppColor.textColor)
                 .frame(maxWidth: 170)
                 .offset(x: 85, y: -150)
                 .padding(.horizontal, 10)
 
-            Text("ユーザー認証を開始します。お手元にお客様のユーザーIDとパスワードが記載された書類をご用意ください。")
+            Text(description)
                 .font(.subheadline)
                 .foregroundStyle(AppColor.textColor)
                 .multilineTextAlignment(.center)
@@ -142,9 +155,12 @@ struct HeaderView: View {
             .padding(.top, -25)
 
             HStack {
-                Image(systemName: "arrow.backward.circle")
-                    .foregroundStyle(AppColor.accentBlue)
-                    .font(.title)
+                Button(action: buttonAction)
+                {
+                    Image(systemName: "arrow.backward.circle")
+                        .foregroundStyle(AppColor.accentBlue)
+                        .font(.title)
+                }
 
                 Spacer()
 
@@ -152,7 +168,7 @@ struct HeaderView: View {
                     MainTabbarView()
                 } label: {
                     HStack(spacing: 20) {
-                        Text("始める")
+                        Text(buttonTitle)
                             .font(.title)
                             .foregroundStyle(.white)
                         Image(systemName: "arrow.forward.circle")

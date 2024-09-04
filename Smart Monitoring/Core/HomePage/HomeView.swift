@@ -99,8 +99,9 @@ struct HomeView: View {
                 .padding(.top, 10)
 
 
-            RiveViewModel(fileName: "dimensionanimation").view()
+            RiveViewModel(fileName: "dimensionanimation3").view()
                 .offset(y: -10)
+
             RoundedRectangle(cornerRadius: 10)
                 .frame(maxWidth: .infinity, maxHeight: 80)
                 .foregroundStyle(AppColor.accentBlue)
