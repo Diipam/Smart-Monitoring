@@ -18,6 +18,7 @@ struct AppColor {
     static let textColor = Color(hex: "#4A4B4C")
     static let gray4 = Color(hex: "#343434")
     static let onboardingScreen = Color(hex: "#F5F5F5")
+    static let slidingPageText = Color(hex: "#003D4F")
 
 }
 

@@ -22,12 +22,19 @@
 		F30B35E22C808B8500280023 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30B35DD2C808B8500280023 /* UserDefaults.swift */; };
 		F33038872C857F950043635B /* OnboaringScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33038862C857F950043635B /* OnboaringScreenView.swift */; };
 		F33038892C85840E0043635B /* CustomRoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33038882C85840E0043635B /* CustomRoundedCorner.swift */; };
+		F34B4B542C8EBAA10095CF71 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34B4B532C8EBAA10095CF71 /* NotificationView.swift */; };
+		F34B4B582C8EBEEE0095CF71 /* EnergyConsumptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34B4B572C8EBEEE0095CF71 /* EnergyConsumptionView.swift */; };
+		F35971FE2C882BD40077AA8B /* Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F35971FD2C882BD40077AA8B /* Staging.xcconfig */; };
+		F35972002C882C0B0077AA8B /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F35971FF2C882C0B0077AA8B /* Release.xcconfig */; };
+		F35972072C898AFB0077AA8B /* dimensionanimation4.riv in Resources */ = {isa = PBXBuildFile; fileRef = F35972062C898AFB0077AA8B /* dimensionanimation4.riv */; };
 		F3916CF82C86DF8000A44F79 /* TestCustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3916CF72C86DF8000A44F79 /* TestCustomShape.swift */; };
 		F3916CFA2C871FCD00A44F79 /* riveassets.riv in Resources */ = {isa = PBXBuildFile; fileRef = F3916CF92C871FCD00A44F79 /* riveassets.riv */; };
 		F3916CFC2C87238700A44F79 /* testnewimage.riv in Resources */ = {isa = PBXBuildFile; fileRef = F3916CFB2C87238700A44F79 /* testnewimage.riv */; };
 		F3916CFE2C87255800A44F79 /* dimensionanimation.riv in Resources */ = {isa = PBXBuildFile; fileRef = F3916CFD2C87255800A44F79 /* dimensionanimation.riv */; };
 		F3916D002C8729BA00A44F79 /* dimensionanimation2.riv in Resources */ = {isa = PBXBuildFile; fileRef = F3916CFF2C8729BA00A44F79 /* dimensionanimation2.riv */; };
 		F3916D022C872A5F00A44F79 /* dimensionanimation3.riv in Resources */ = {isa = PBXBuildFile; fileRef = F3916D012C872A5F00A44F79 /* dimensionanimation3.riv */; };
+		F3D00DE12C900A6100A87A83 /* BatteryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D00DE02C900A6100A87A83 /* BatteryDetailsView.swift */; };
+		F3D00DE42C900A7A00A87A83 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D00DE32C900A7A00A87A83 /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,12 +53,19 @@
 		F30B35DD2C808B8500280023 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		F33038862C857F950043635B /* OnboaringScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboaringScreenView.swift; sourceTree = "<group>"; };
 		F33038882C85840E0043635B /* CustomRoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoundedCorner.swift; sourceTree = "<group>"; };
+		F34B4B532C8EBAA10095CF71 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		F34B4B572C8EBEEE0095CF71 /* EnergyConsumptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyConsumptionView.swift; sourceTree = "<group>"; };
+		F35971FD2C882BD40077AA8B /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
+		F35971FF2C882C0B0077AA8B /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		F35972062C898AFB0077AA8B /* dimensionanimation4.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = dimensionanimation4.riv; sourceTree = "<group>"; };
 		F3916CF72C86DF8000A44F79 /* TestCustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCustomShape.swift; sourceTree = "<group>"; };
 		F3916CF92C871FCD00A44F79 /* riveassets.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = riveassets.riv; sourceTree = "<group>"; };
 		F3916CFB2C87238700A44F79 /* testnewimage.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = testnewimage.riv; sourceTree = "<group>"; };
 		F3916CFD2C87255800A44F79 /* dimensionanimation.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = dimensionanimation.riv; sourceTree = "<group>"; };
 		F3916CFF2C8729BA00A44F79 /* dimensionanimation2.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = dimensionanimation2.riv; sourceTree = "<group>"; };
 		F3916D012C872A5F00A44F79 /* dimensionanimation3.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = dimensionanimation3.riv; sourceTree = "<group>"; };
+		F3D00DE02C900A6100A87A83 /* BatteryDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryDetailsView.swift; sourceTree = "<group>"; };
+		F3D00DE32C900A7A00A87A83 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +83,8 @@
 		F30B35B02C808AEA00280023 = {
 			isa = PBXGroup;
 			children = (
+				F35971FF2C882C0B0077AA8B /* Release.xcconfig */,
+				F35971FD2C882BD40077AA8B /* Staging.xcconfig */,
 				F30B35BB2C808AEB00280023 /* Smart Monitoring */,
 				F30B35BA2C808AEB00280023 /* Products */,
 			);
@@ -125,6 +141,10 @@
 		F30B35D22C808B7200280023 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				F3D00DE22C900A6D00A87A83 /* Settings */,
+				F3D00DDF2C900A4D00A87A83 /* BatteryDetails */,
+				F34B4B562C8EBEBC0095CF71 /* EnergyConsumption */,
+				F34B4B552C8EBAA50095CF71 /* Notification */,
 				F33038852C857D430043635B /* OnboardingScreen */,
 				F30B35CE2C808B7200280023 /* HomePage */,
 				F30B35D12C808B7200280023 /* TabBar */,
@@ -135,9 +155,9 @@
 		F30B35D72C808B7B00280023 /* RiveAssets */ = {
 			isa = PBXGroup;
 			children = (
+				F35972062C898AFB0077AA8B /* dimensionanimation4.riv */,
 				F3916D012C872A5F00A44F79 /* dimensionanimation3.riv */,
 				F3916CFF2C8729BA00A44F79 /* dimensionanimation2.riv */,
-				F3916CFD2C87255800A44F79 /* dimensionanimation.riv */,
 				F3916CFB2C87238700A44F79 /* testnewimage.riv */,
 				F3916CF92C871FCD00A44F79 /* riveassets.riv */,
 				F30B35D62C808B7B00280023 /* shapes.riv */,
@@ -149,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				F30B35D92C808B8500280023 /* TabModifier.swift */,
+				F3916CFD2C87255800A44F79 /* dimensionanimation.riv */,
 				F33038882C85840E0043635B /* CustomRoundedCorner.swift */,
 			);
 			path = ViewModifiers;
@@ -179,6 +200,38 @@
 				F33038862C857F950043635B /* OnboaringScreenView.swift */,
 			);
 			path = OnboardingScreen;
+			sourceTree = "<group>";
+		};
+		F34B4B552C8EBAA50095CF71 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				F34B4B532C8EBAA10095CF71 /* NotificationView.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		F34B4B562C8EBEBC0095CF71 /* EnergyConsumption */ = {
+			isa = PBXGroup;
+			children = (
+				F34B4B572C8EBEEE0095CF71 /* EnergyConsumptionView.swift */,
+			);
+			path = EnergyConsumption;
+			sourceTree = "<group>";
+		};
+		F3D00DDF2C900A4D00A87A83 /* BatteryDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F3D00DE02C900A6100A87A83 /* BatteryDetailsView.swift */,
+			);
+			path = BatteryDetails;
+			sourceTree = "<group>";
+		};
+		F3D00DE22C900A6D00A87A83 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F3D00DE32C900A7A00A87A83 /* SettingView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,8 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F30B35C42C808AEC00280023 /* Preview Assets.xcassets in Resources */,
+				F35971FE2C882BD40077AA8B /* Staging.xcconfig in Resources */,
+				F35972072C898AFB0077AA8B /* dimensionanimation4.riv in Resources */,
 				F3916CFA2C871FCD00A44F79 /* riveassets.riv in Resources */,
 				F30B35D82C808B7B00280023 /* shapes.riv in Resources */,
+				F35972002C882C0B0077AA8B /* Release.xcconfig in Resources */,
 				F3916D002C8729BA00A44F79 /* dimensionanimation2.riv in Resources */,
 				F3916CFC2C87238700A44F79 /* testnewimage.riv in Resources */,
 				F30B35C12C808AEC00280023 /* Assets.xcassets in Resources */,
@@ -266,10 +322,14 @@
 				F30B35E12C808B8500280023 /* AppFont.swift in Sources */,
 				F30B35D32C808B7200280023 /* HomeView.swift in Sources */,
 				F33038872C857F950043635B /* OnboaringScreenView.swift in Sources */,
+				F34B4B542C8EBAA10095CF71 /* NotificationView.swift in Sources */,
 				F30B35BF2C808AEB00280023 /* ContentView.swift in Sources */,
+				F3D00DE42C900A7A00A87A83 /* SettingView.swift in Sources */,
+				F3D00DE12C900A6100A87A83 /* BatteryDetailsView.swift in Sources */,
 				F3916CF82C86DF8000A44F79 /* TestCustomShape.swift in Sources */,
 				F30B35D52C808B7200280023 /* Tab.swift in Sources */,
 				F33038892C85840E0043635B /* CustomRoundedCorner.swift in Sources */,
+				F34B4B582C8EBEEE0095CF71 /* EnergyConsumptionView.swift in Sources */,
 				F30B35E02C808B8500280023 /* AppColor.swift in Sources */,
 				F30B35E22C808B8500280023 /* UserDefaults.swift in Sources */,
 				F30B35BD2C808AEB00280023 /* Smart_MonitoringApp.swift in Sources */,
@@ -408,6 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Smart Monitoring/Preview Content\"";
+				DEVELOPMENT_TEAM = RJC4MPJ9ZS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -415,6 +476,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -430,12 +492,14 @@
 		};
 		F30B35C92C808AEC00280023 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35971FF2C882C0B0077AA8B /* Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Smart Monitoring/Preview Content\"";
+				DEVELOPMENT_TEAM = RJC4MPJ9ZS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -443,6 +507,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +521,100 @@
 			};
 			name = Release;
 		};
+		F35971FB2C882B610077AA8B /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Staging;
+		};
+		F35971FC2C882B610077AA8B /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35971FD2C882BD40077AA8B /* Staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart Monitoring/Preview Content\"";
+				DEVELOPMENT_TEAM = RJC4MPJ9ZS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DeepamDhakal.Smart-Monitoring";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Staging;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -463,6 +622,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F30B35C52C808AEC00280023 /* Debug */,
+				F35971FB2C882B610077AA8B /* Staging */,
 				F30B35C62C808AEC00280023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -472,6 +632,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F30B35C82C808AEC00280023 /* Debug */,
+				F35971FC2C882B610077AA8B /* Staging */,
 				F30B35C92C808AEC00280023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;

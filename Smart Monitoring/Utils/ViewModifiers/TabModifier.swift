@@ -10,7 +10,7 @@ import SwiftUI
 struct TabbarModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
-            .padding(5)
+            .padding(2)
             .background(.ultraThinMaterial.opacity(0.8))
             .background(AppColor.tabbarBackground)
             .mask(RoundedRectangle(cornerRadius: 30, style: .continuous))

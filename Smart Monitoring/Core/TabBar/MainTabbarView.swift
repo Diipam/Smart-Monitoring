@@ -15,21 +15,21 @@ struct MainTabbarView: View {
             AppColor.background
                 .ignoresSafeArea()
 
-            VStack(spacing: 0) {
+            VStack(spacing: -20) {
                 TabView(selection: $activeTab) {
-                    Text("Notification")
+                    NotificationView()
                         .tag(Tab.notification)
 
-                    Text("Graph")
+                    EnergyConsumptionView()
                         .tag(Tab.graph)
 
                     HomeView()
                         .tag(Tab.home)
 
-                    Text("Details")
+                    BatteryDetailsView()
                         .tag(Tab.details)
 
-                    Text("Settings")
+                    SettingView()
                         .tag(Tab.settings)
                 }
                 customTabbar(tint: AppColor.accentBlue, inactiveTint: .blue)

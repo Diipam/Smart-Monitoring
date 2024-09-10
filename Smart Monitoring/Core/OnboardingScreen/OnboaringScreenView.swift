@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct OnboardingScreenView: View {
-    @State private var currentTab = 1 // Keeps track of the current tab
+    @State private var currentTab = 0 // Keeps track of the current tab
 
     var body: some View {
         NavigationStack {
